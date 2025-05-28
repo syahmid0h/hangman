@@ -25,3 +25,17 @@ hangman_art = {0:('   ',
                6:(' O ',
                   '/|\\',
                   '/ \\ ')}
+
+def display_hint(hint):
+    pass
+
+def display_answer(answer):
+    pass
+
+def main():
+    answer = random.choice(words)
+    hint = ["_"] * len(answer)
+    
+
+if __name__ == "__main__":
+    main()
